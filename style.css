@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(143, 78, 78);
+}
+
+nav {
+    width: 100%;
+    height: 66px;
+    background-color: white;
+
+}
+
+.image {
+    width: 160px;
+    height: 62px;
+    margin-left: -40px;
+    margin-top: 5px;
+}
+
+.search {
+    height: 40px;
+    width: 40%;
+    font-size: 19px;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-top: 13px;
+    position: absolute;
+    border-radius: 5px;
+    background-color: whitesmoke;
+
+}
+.container li:hover{
+    color: rgb(30, 95, 192);
+
+}
+
+.navitems {
+    display: flex;
+    width: 26em;
+    list-style: none;
+    position: absolute;
+    margin: -47px 43em;
+    font-weight: bold;
+    gap: 110px;
+    font-size: 20px;
+
+}
+
+.img {
+    margin: 0px -87px;
+    position: sticky;
+}
+
+.dot {
+    width: 30px;
+    height: 30px;
+    margin: 0px 18px;
+}
+
+.container2 {
+    display: flex;
+    gap: 45px;
+    width: 100%;
+    position: absolute;
+
+    height: 126px;
+    margin-left: 13px;
+    width: 98%;
+    justify-content: space-between;
+}
+
+li {
+    font-weight: bold;
+    list-style: none;
+    font-size: 20px;
+}
+
+.grocery img {
+    height: 70px;
+    width: 70px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 17px;
+    cursor: pointer;
+}
+
+.mobile img {
+    height: 70px;
+    width: 70px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+
+}
+
+.fashion img {
+    height: 70px;
+    width: 70px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+
+}
+
+.electronics img {
+    height: 70px;
+    width: 70px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 32px;
+    cursor: pointer;
+
+}
+
+.furnitures img {
+    height: 70px;
+    width: 70px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 27px;
+    cursor: pointer;
+
+}
+
+.appliances img {
+
+    height: 70px;
+    width: 70px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.travel img {
+    height: 70px;
+    width: 70px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+
+
+}
+
+.beauty img {
+    height: 70px;
+    width: 70px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 55px;
+    cursor: pointer;
+
+
+}
+
+.toys img {
+    height: 70px;
+    width: 70px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 37px;
+    cursor: pointer;
+}
+
+.wheeler img {
+    height: 70px;
+    width: 70px;
+    margin-top: 15px;
+    border-radius: 5px;
+    margin-left: 45px;
+    cursor: pointer;
+
+}
+
+.container2 li {
+    margin-left: 5px;
+    
+}
+
+.container2 .items {
+    margin-left: 15px;
+}
+
+.items {
+    margin: 0px -19px;
+    
+}
+.sliderimg {
+    display: block;
+    position: absolute;
+    width: 100%;
+}
+
+.d-block {
+    height: 300px;
+    width: 1475px;
+    margin: 167px 4px;
+}
+
+.container3 {
+    display: block;
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    /* border: 2px solid rgb(192, 192, 192); */
+    margin: 512px 3px;
+}
+.container3 .dollar:hover{
+ color: rgb(30, 95, 192);
+}
+
+.box {
+    height: 220px;
+    width: 180px;
+    /* border: 2px solid black; */
+    margin-top: 10px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.container3 h3 {
+    margin-top: 14px;
+
+    /* margin-left: 6px; */
+}
+
+.box img {
+    height: 200px;
+    width: 180px;
+    margin: auto;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.box img:hover {
+    border-radius: 20px;
+    transform: scale(1.1);
+    transition-duration: .6s;
+    box-shadow: 7px 7px rgb(216, 216, 216);
+    
+
+}
+
+.box .content {
+    font-weight: bold;
+    margin-left: 36px;
+}
+
+.box .boxcontent {
+    font-weight: bold;
+    margin-left: 65px;
+    margin-top: 25px;
+
+}
+
+.box .dollar {
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.container4 {
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 300px;
+    display: block;
+    position: absolute;
+    flex-direction: column;
+    margin: 55em 0px 0px;
+
+}
+
+.container4 .flex2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards {
+    /* border: 2px solid black; */
+    height: 220px;
+    width: 180px;
+
+}
+
+.container4 img {
+    height: 200px;
+    width: 180px;
+    margin: auto;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.container4 img:hover {
+
+    border-radius: 20px;
+    transform: scale(1.1);
+    transition-duration: .6s;
+    box-shadow: 7px 7px rgb(216, 216, 216);
+}
+
+.container4 .content1 {
+    font-weight: bold;
+    margin-left: 47px;
+}
+
+.container4 .dollar1 {
+    font-weight: bold;
+    margin-left: 52px;
+}
+.container4 .dollar1:hover{
+    color: rgb(30, 95, 192);
+}
