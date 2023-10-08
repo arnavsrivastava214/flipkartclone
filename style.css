@@ -5,12 +5,14 @@
 
 body {
     background-color: rgb(143, 78, 78);
+    height: 500rem;
 }
 
 nav {
     width: 100%;
     height: 66px;
     background-color: white;
+
 
 }
 
@@ -320,4 +322,60 @@ li {
 }
 .container4 .dollar1:hover{
     color: rgb(30, 95, 192);
+}
+.bank{
+    display: block;
+    position: absolute;
+    height: 80px;
+    width: 70em;
+    margin-top: 80em;
+    margin-left: 13rem;
+    cursor: pointer;
+}
+.bank  img{
+    height: 80px;
+    width: 300px;
+}
+.bank .bank2{
+    display: block;
+    position: absolute;
+    margin: -70px 249px ;
+}
+.bank .bank1 img{
+    display: block;
+    position: absolute;
+    margin: -70px 520px;
+}
+.bank h2{
+    display: block;
+    position: absolute;
+    margin-top: -72px;
+    margin-left: 53rem;
+}
+.coupons{
+    display: block;
+    position: absolute;
+    width: 101%;
+    height: 360px;
+    margin-top: 95rem;
+}
+.contain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.coupons .card1{
+    width: 33.6%;
+    height: 300px;
+    box-shadow: 7px 7px 7px 7px lightgrey;
+}
+.card1 .center{
+    margin-top: 55px;
+    margin-left: 70px;
+    
+}
+.card1 .center1{
+    margin-top: 20px;
+    margin-left: 65px;
+    
 }
