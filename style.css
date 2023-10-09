@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(143, 78, 78);
+    background-color: rgb(255, 255, 255);
     height: 500rem;
 }
 
@@ -211,7 +211,6 @@ li {
     position: absolute;
     height: 300px;
     width: 100%;
-    /* border: 2px solid rgb(192, 192, 192); */
     margin: 512px 3px;
 }
 .container3 .dollar:hover{
@@ -221,7 +220,6 @@ li {
 .box {
     height: 220px;
     width: 180px;
-    /* border: 2px solid black; */
     margin-top: 10px;
 }
 
@@ -235,7 +233,6 @@ li {
 .container3 h3 {
     margin-top: 14px;
 
-    /* margin-left: 6px; */
 }
 
 .box img {
@@ -273,7 +270,7 @@ li {
 }
 
 .container4 {
-    /* border: 2px solid black; */
+    
     width: 100%;
     height: 300px;
     display: block;
@@ -289,7 +286,6 @@ li {
 }
 
 .cards {
-    /* border: 2px solid black; */
     height: 220px;
     width: 180px;
 
@@ -378,4 +374,161 @@ li {
     margin-top: 20px;
     margin-left: 65px;
     
+}
+.phone{
+    display: block;
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    
+    margin-top: 120rem;
+}
+.phone .flex3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.phone .smart{
+    height: 220px;
+    width: 180px;
+}
+.phone img{
+    height: 200px;
+    width: 180px;
+    margin: auto;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.phone img:hover {
+    
+    border-radius: 20px;
+    transform: scale(1.1);
+    transition-duration: .6s;
+    box-shadow: 7px 7px rgb(216, 216, 216);
+}
+.phone span{
+    font-weight: bold;
+    margin-left: 28px;
+}
+.phone .offer{
+    margin-left: 47px;
+}
+.phone .offer:hover{
+    margin-left: 47px;
+    color: rgb(30, 95, 192);
+}
+.deals{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    margin-top: 146rem;
+    cursor: pointer;
+}
+.flex4{
+    display: flex;
+    justify-content: space-evenly;
+    height: 250px;
+}
+.deals .card2{
+    width: 30rem;
+    
+}
+.deals img{
+    height: 250px;
+    width: 30rem;
+}
+.deals2{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    margin-top: 162rem;
+    cursor: pointer;
+}
+.flex5{
+    display: flex;
+    justify-content: space-evenly;
+    height: 250px;
+}
+.deals2 .card3{
+    width: 30rem;
+    
+}
+.deals2 img{
+    height: 250px;
+    width: 30rem;
+}
+.deals3{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    margin-top: 182rem;
+    cursor: pointer;
+}
+.flex6{
+    display: flex;
+    justify-content: space-evenly;
+    height: 250px;
+}
+.deals3 img{
+    height: 300px;
+    width: 30rem;
+}
+.deals4{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    margin-top: 206rem;
+    cursor: pointer;
+}
+.flex7{
+    display: flex;
+    justify-content: space-evenly;
+    height: 250px;
+}
+.deals4 img{
+    height: 250px;
+    width: 30rem;
+}
+.top{
+    display: block;
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    margin-top: 226rem;
+}
+.top .flex8{
+    display: flex;
+    justify-content: space-evenly;
+}
+.top .card6{
+    height: 220px;
+    width: 180px;
+    
+}
+.top img{
+    height: 200px;
+    width: 180px;
+    margin: auto;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.top img:hover {
+    
+    border-radius: 20px;
+    transform: scale(1.1);
+    transition-duration: .6s;
+    box-shadow: 7px 7px rgb(216, 216, 216);
+}
+.top span{
+    font-weight: bold;
+    margin-left: 20px;
+}
+.top .margin{
+    margin-left: 30px;
+}
+.top .margin:hover{
+    color: rgb(30, 95, 192);
 }
